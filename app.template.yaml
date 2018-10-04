@@ -8,10 +8,10 @@ runtime: python37
 
 env_variables:
   # Database Variables
-  DB_NAME: ''
-  DB_HOST: '/cloudsql/[project-id]:[instance_region]:[instance_name]'
-  DB_USER: '[username]' #default 'postgres' 
-  DB_PASSWORD: '[password]'
+  DB_NAME: 'DB_NAME'
+  DB_HOST: '/cloudsql/[gae_project_id]:[instance_region]:[instance_name]'
+  DB_USER: 'DB_USER' #default 'postgres' 
+  DB_PASSWORD: 'DB_PASSWORD'
   
   # General env_variables
   SECRET_KEY: 'YOUR_KEY' 
