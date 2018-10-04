@@ -1,21 +1,21 @@
 
+# You need to use this file as a template for the app.yaml file 
+# and replace values with the correct ones
+
 # [START django_app]
 runtime: python37
 
 
 env_variables:
   # Database Variables
-  DB_NAME: 'laureategram'
-  DB_HOST: '/cloudsql/platzigram-218313:us-central1:laureategram'
-  DB_USER: 'postgres' 
-  DB_PASSWORD: 'Laureate123'
-
-  # General env_variables
-  SECRET_KEY: ''g%#mue@@9+%7+q!e7b0%eh9dg4=kbxs-#15(h5!em)fz&2!=3$'' 
-  DEBUG: 'True' # always False for deployment
-
-
+  DB_NAME: ''
+  DB_HOST: '/cloudsql/[project-id]:[instance_region]:[instance_name]'
+  DB_USER: '[username]' #default 'postgres' 
+  DB_PASSWORD: '[password]'
   
+  # General env_variables
+  SECRET_KEY: 'YOUR_KEY' 
+  DEBUG: 'False' # always False for deployment
 
 handlers:
 # This configures Google App Engine to serve the files in the app's static
