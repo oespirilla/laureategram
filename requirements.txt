@@ -1,2 +1,5 @@
 Django
 Pillow
+django-storages[google]
+psycopg2
+psycopg2-binary
