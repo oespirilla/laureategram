@@ -12,10 +12,16 @@ env_variables:
   DB_HOST: '/cloudsql/[gae_project_id]:[instance_region]:[instance_name]'
   DB_USER: 'DB_USER' #default 'postgres' 
   DB_PASSWORD: 'DB_PASSWORD'
+
+  # Static Files, this is the url that you sync static files to
+  STATIC_URL: 'https://storage.googleapis.com/BUCKET-NAME/static/' 
   
   # General env_variables
   SECRET_KEY: 'YOUR_KEY' 
   DEBUG: 'False' # always False for deployment
+
+  # Django Storage Variables
+  GS_BUCKET_NAME: 'YOUR_BUCKET_NAME'
 
 handlers:
 # This configures Google App Engine to serve the files in the app's static

@@ -18,3 +18,16 @@ DATABASES = {
         'PASSWORD': os.environ['DB_PASSWORD'],
     }
 }
+
+# Static files (CSS, JavaScript, Images)
+STATIC_URL = os.environ['STATIC_URL']
+
+# collectstatic directory (located OUTSIDE the base directory)
+# TODO: configure the name and path to your static bucket directory (where collectstatic will copy to)
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static')
+
+DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
+GS_BUCKET_NAME = os.environ['GS_BUCKET_NAME']
+GS_DEFAULT_ACL = 'publicRead'
+
+
