@@ -1,4 +1,4 @@
-"""Platzigram views."""
+"""Laureategram views."""
 
 # Django
 from django.http import HttpResponse
@@ -35,5 +35,5 @@ def say_hi(request, name, age):
     if age < 12:
         message = 'Sorry {}, you are not allowed here'.format(name)
     else:
-        message = 'Hello, {}! Welcome to Platzigram'.format(name)
+        message = 'Hello, {}! Welcome to OneStory'.format(name)
     return HttpResponse(message)

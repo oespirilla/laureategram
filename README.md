@@ -5,9 +5,9 @@ Instagram wannabe, based on https://github.com/pablotrinidad/platzigram. This fo
 ### Installation
 Run the following commands:
 
-    $ git clone git@github.com:pablotrinidad/platzigram.git
+    $ git clone git@github.com:oespirilla/platzigram.git
     
-    $ cd platzigram
+    $ cd laureategram
     
     $ python3 -m venv <ENV_NAME>
     
