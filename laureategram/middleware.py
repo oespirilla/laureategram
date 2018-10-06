@@ -1,4 +1,4 @@
-"""Platzigram middleware catalog."""
+"""Laureategram middleware catalog."""
 
 # Django
 from django.shortcuts import redirect
