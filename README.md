@@ -1,11 +1,11 @@
-# One Laureategram
+# Laureategram
 Instagram wannabe, based on https://github.com/pablotrinidad/platzigram. This fork enables compatibility with Google Cloud Platform (https://console.cloud.google.com). Google App Engine for hosting, Google Cloud SQL (PostgreSQL)for the DB and Google Cloud Storage to store static files and Posts Media. 
 
 
 ### Installation
 Run the following commands:
 
-    $ git clone git@github.com:oespirilla/platzigram.git
+    $ git clone git@github.com:oespirilla/laureategram.git
     
     $ cd laureategram
     
@@ -28,7 +28,7 @@ Run the following commands:
 	# Running an WSGI local instance
     (ENV)$ python manage.py runserver 0.0.0.0:8000
 
-The site will now be accessible at [http://localhost:8000/](http://localhost:8000/) and the Wagtail admin interface at [http://localhost:8000/admin/](http://localhost:8000/admin/) . 
+The site will now be accessible at [http://localhost:8000/](http://localhost:8000/) and the admin interface at [http://localhost:8000/admin/](http://localhost:8000/admin/) . 
 
 ### Deployment to GAE (Google App Engine)
 In order to deploy this app to GAE you need to setup:
