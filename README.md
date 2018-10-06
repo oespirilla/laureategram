@@ -1,11 +1,11 @@
-# One Laureategram
+# Laureategram
 Instagram wannabe, based on https://github.com/pablotrinidad/platzigram. This fork enables compatibility with Google Cloud Platform (https://console.cloud.google.com). Google App Engine for hosting, Google Cloud SQL (PostgreSQL)for the DB and Google Cloud Storage to store static files and Posts Media. 
 
 
 ### Installation
 Run the following commands:
 
-    $ git clone git@github.com:oespirilla/platzigram.git
+    $ git clone git@github.com:oespirilla/laureategram.git
     
     $ cd laureategram
     
