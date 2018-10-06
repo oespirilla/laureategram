@@ -28,7 +28,7 @@ Run the following commands:
 	# Running an WSGI local instance
     (ENV)$ python manage.py runserver 0.0.0.0:8000
 
-The site will now be accessible at [http://localhost:8000/](http://localhost:8000/) and the Wagtail admin interface at [http://localhost:8000/admin/](http://localhost:8000/admin/) . 
+The site will now be accessible at [http://localhost:8000/](http://localhost:8000/) and the admin interface at [http://localhost:8000/admin/](http://localhost:8000/admin/) . 
 
 ### Deployment to GAE (Google App Engine)
 In order to deploy this app to GAE you need to setup:
